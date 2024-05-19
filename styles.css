@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    color: #880e4f;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+/* Estilos para os botões dos dias da semana */
+.days {
+    margin: 20px 0;
+}
+
+.days button {
+    background-color: #f8bbd0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.days button:hover {
+    background-color: #ec407a;
+    color: white;
+}
+
+/* Estilos para os exercícios */
+.exercises {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8bbd0;
+    border-radius: 10px;
+}
+
+.exercises h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.exercises button {
+    background-color: #fce4ec;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;  /* Botões menores */
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.exercises button:hover {
+    background-color: #f48fb1;
+}
+
+/* Estilos para os detalhes dos exercícios */
+.exercise-details {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fce4ec;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.exercise-details h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.exercise-details img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.exercise-details p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Estilos para o botão de voltar à página inicial */
+.back-button {
+    display: inline-block;
+    background-color: #f48fb1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 1em;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #ec407a;
+}
+
+/* Estilos para os quadrados na página inicial */
+.home-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home-content h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #880e4f;
+}
+
+.decorative-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.decorative-box {
+    width: 200px;
+    height: 200px;
+    background-color: #f8bbd0;
+    border-radius: 10px;
+    overflow: hidden; /* Garante que a imagem não ultrapasse a borda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Adiciona margem interna em todos os lados */
+}
+
+.decorative-box img {
+    max-width: 100%;
+    max-height: calc(100% - 10px); /* Ajusta a altura máxima considerando o padding-top */
+    object-fit: cover; /* Ajusta a imagem para cobrir a caixa sem distorcer */
+}
